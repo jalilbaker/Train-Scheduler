@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head>
+	<title>Train Time</title>
+</head>
+<body>
+	<div id="top" class="jumbotron jumbotron-fluid">
+  <div class="container" class="text-center">
+    <h1 class="display-4" class="text-center">Train Time</h1>
+    <p class="lead" class="text-center" >Time it the rigth way.</p>
+  </div>
+</div>
+<div>
+	<div>
+		<h2>Current Train Schedule</h2>
+	</div>
+	<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Train Name</th>
+      <th scope="col">Destination</th>
+      <th scope="col">Frequency (min)</th>
+      <th scope="col">Next Arrival</th>
+      <th scope="col">Minutes Away</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div>
+	<h2>Add Train</h2>
+</div>
+<div>
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Train Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter train name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Destination</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Destination">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">First Train Time (HH:mm - military time)</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Train time">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Frequency (min)</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Frequency">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+</body>
+</html>
